@@ -1,11 +1,11 @@
-﻿using BlyadTheftAuto.GrandTheftAuto.Models.Backup;
+﻿using GrandTheftAuto.Models.Backup;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlyadTheftAuto.GrandTheftAuto.Models
+namespace GrandTheftAuto.Models
 {
 	internal class Vehicle : Entity
 	{

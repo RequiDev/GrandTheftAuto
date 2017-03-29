@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlyadTheftAuto.GrandTheftAuto.Models.Backup
+namespace GrandTheftAuto.Models.Backup
 {
 	internal class BackupVehicle
 	{

@@ -1,15 +1,15 @@
-﻿using BlyadTheftAuto.MemorySystem;
+﻿using MemorySystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlyadTheftAuto.GrandTheftAuto.Models
+namespace GrandTheftAuto.Models
 {
 	internal class VehicleColors
 	{
-		private static ProcessMemory Memory => BlyadTheftAuto.Memory;
+		private static ProcessMemory Memory => Memory;
 		private byte[] _readData;
 		private IntPtr _address;
 

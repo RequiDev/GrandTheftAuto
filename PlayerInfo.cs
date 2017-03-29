@@ -1,16 +1,16 @@
-﻿using BlyadTheftAuto.Extensions;
-using BlyadTheftAuto.MemorySystem;
+﻿using Extensions;
+using MemorySystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlyadTheftAuto.GrandTheftAuto.Models
+namespace GrandTheftAuto.Models
 {
 	internal class PlayerInfo
 	{
-		private static ProcessMemory Memory => BlyadTheftAuto.Memory;
+		private static ProcessMemory Memory => Memory;
 		private byte[] _readData;
 		private IntPtr _address;
 

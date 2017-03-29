@@ -1,16 +1,16 @@
-﻿using BlyadTheftAuto.MemorySystem;
-using BlyadTheftAuto.Structs;
+﻿using MemorySystem;
+using Structs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlyadTheftAuto.GrandTheftAuto.Models
+namespace GrandTheftAuto.Models
 {
 	internal class Entity
 	{
-		protected static ProcessMemory Memory => BlyadTheftAuto.Memory;
+		protected static ProcessMemory Memory => Memory;
 		protected byte[] readData;
 		protected IntPtr address;
 

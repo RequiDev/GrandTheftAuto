@@ -1,16 +1,16 @@
-﻿using BlyadTheftAuto.GrandTheftAuto.Models.Backup;
-using BlyadTheftAuto.MemorySystem;
+﻿using GrandTheftAuto.Models.Backup;
+using MemorySystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlyadTheftAuto.GrandTheftAuto.Models
+namespace GrandTheftAuto.Models
 {
 	internal class Weapon
 	{
-		private static ProcessMemory Memory => BlyadTheftAuto.Memory;
+		private static ProcessMemory Memory => Memory;
 		private byte[] _readData;
 		private IntPtr _address;
 
